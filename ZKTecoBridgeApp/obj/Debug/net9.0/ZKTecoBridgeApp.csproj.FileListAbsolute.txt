@@ -1,0 +1,5 @@
+D:\Aniket\RFID_Final\backend\ZKTecoBridgeApp\obj\Debug\net9.0\ZKTecoBridgeApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aniket\RFID_Final\backend\ZKTecoBridgeApp\obj\Debug\net9.0\ZKTecoBridgeApp.AssemblyInfoInputs.cache
+D:\Aniket\RFID_Final\backend\ZKTecoBridgeApp\obj\Debug\net9.0\ZKTecoBridgeApp.AssemblyInfo.cs
+D:\Aniket\RFID_Final\backend\ZKTecoBridgeApp\obj\Debug\net9.0\ZKTecoBridgeApp.csproj.CoreCompileInputs.cache
+D:\Aniket\RFID_Final\backend\ZKTecoBridgeApp\obj\Debug\net9.0\ZKTecoBridgeApp.csproj.AssemblyReference.cache

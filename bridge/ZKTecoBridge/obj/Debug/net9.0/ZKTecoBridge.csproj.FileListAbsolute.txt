@@ -1,0 +1,17 @@
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.AssemblyInfoInputs.cache
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.AssemblyInfo.cs
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.csproj.CoreCompileInputs.cache
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\bin\Debug\net9.0\ZKTecoBridge.exe
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\bin\Debug\net9.0\ZKTecoBridge.deps.json
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\bin\Debug\net9.0\ZKTecoBridge.runtimeconfig.json
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\bin\Debug\net9.0\ZKTecoBridge.dll
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\bin\Debug\net9.0\ZKTecoBridge.pdb
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\bin\Debug\net9.0\Interop.zkemkeeper.dll
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.csproj.AssemblyReference.cache
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBr.CE1E2B14.Up2Date
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.dll
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\refint\ZKTecoBridge.dll
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.pdb
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ZKTecoBridge.genruntimeconfig.cache
+D:\Aniket\RFID_Final\backend\bridge\ZKTecoBridge\obj\Debug\net9.0\ref\ZKTecoBridge.dll

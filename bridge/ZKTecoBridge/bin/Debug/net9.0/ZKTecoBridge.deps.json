@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ZKTecoBridge/1.0.0": {
+        "dependencies": {
+          "ZKemkeeper": "1.0.2"
+        },
+        "runtime": {
+          "ZKTecoBridge.dll": {}
+        }
+      },
+      "ZKemkeeper/1.0.2": {
+        "runtime": {
+          "lib/Interop.zkemkeeper.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZKTecoBridge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZKemkeeper/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x+ROu82v+uQMHfrlRiGA4RpxV4FyzYASBv9Gp/hVVYJlzONsvDhsD67Xx0cyTJcd5In7EhJz6AkdVEsirH0djA==",
+      "path": "zkemkeeper/1.0.2",
+      "hashPath": "zkemkeeper.1.0.2.nupkg.sha512"
+    }
+  }
+}

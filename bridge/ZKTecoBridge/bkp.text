@@ -1,0 +1,69 @@
+﻿using System;
+using zkemkeeper;
+
+class Program
+{
+    static CZKEM axCZKEM = new CZKEM();
+
+    static void Main()
+    {
+        string ip = "192.168.1.66"; 
+        int port = 4370;
+
+        Console.WriteLine("🔌 Connecting to device...");
+
+        // Connect to the device
+        if (!axCZKEM.Connect_Net(ip, port))
+        {
+            Console.WriteLine("❌ Failed to connect. Please check IP and port.");
+            return;
+        }
+
+        Console.WriteLine("✅ Successfully connected to device.");
+
+        int machineNumber = 1; // Most ZKTeco devices use machine number 1
+
+        // Enable the device to receive real-time events
+        axCZKEM.EnableDevice(machineNumber, true);
+
+        // Register events - 65535 = all events, or use 512 for RFID only
+
+        if (!axCZKEM.RegEvent(machineNumber, 65535))
+        {
+            Console.WriteLine("❌ Failed to register for events.");
+            return;
+        }
+
+        Console.WriteLine("✅ Event registration successful.");
+
+        // Assign event handlers
+        axCZKEM.OnHIDNum += new _IZKEMEvents_OnHIDNumEventHandler(OnCardScanned);
+        axCZKEM.OnAttTransactionEx += new _IZKEMEvents_OnAttTransactionExEventHandler(OnTransaction);
+        axCZKEM.OnKeyPress += new _IZKEMEvents_OnKeyPressEventHandler(OnKeyPressed); // Optional
+
+        Console.WriteLine("📡 Ready. Scan an RFID card...");
+
+        // Keep the application running
+        Console.ReadLine();
+
+        // Disconnect when done
+        axCZKEM.Disconnect();
+        Console.WriteLine("🔌 Disconnected from device.");
+    }
+
+    static void OnCardScanned(int cardNumber)
+    {
+        Console.WriteLine($"🟢 [HID] Card Number Detected: {cardNumber}");
+    }
+
+    static void OnTransaction(string enrollNumber, int isValid, int attState, int verifyMethod,
+        int year, int month, int day, int hour, int minute, int second, int workcode)
+    {
+        Console.WriteLine($"🟢 [Transaction] User ID: {enrollNumber} at {hour:D2}:{minute:D2}:{second:D2}");
+    }
+
+    static void OnKeyPressed(int key)
+    {
+        Console.WriteLine($"🔘 Key Pressed: {key}");
+    }
+}
